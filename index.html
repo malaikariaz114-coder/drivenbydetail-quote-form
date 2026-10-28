@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Installation Quote | DrivenByDetail Eastbourne</title>
+<meta name="description" content="Get an instant estimate for dash camera, parking sensor, reversing camera and head unit installation in Eastbourne. Studio or mobile fitting.">
+<style>html,body{margin:0;background:#000}body{padding:24px 16px}</style>
+</head>
+<body>
+<!-- ===========================================================
+     DrivenByDetail – Installation Quote Form
+     Paste this whole block into an Elementor "HTML" widget.
+     Step 1: put your Web3Forms access key below (WEB3FORMS_KEY).
+     =========================================================== -->
+<div id="dbd-quote">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap">
+<style>
+#dbd-quote{--bg:#000000;--card:#111214;--card2:#191a1d;--line:#2a2c31;--text:#ffffff;--muted:#a3a7ae;--gold:#0b63c5;--gold2:#5aa2ec;--ok:#4fbf8b;--err:#e0675f;
+  font-family:"Manrope",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--text);background:var(--bg);border-radius:18px;padding:32px 20px;max-width:1100px;margin:0 auto;box-sizing:border-box;line-height:1.5}
+#dbd-quote *{box-sizing:border-box}
+#dbd-quote h2{font-size:clamp(24px,4vw,34px);margin:0 0 6px;font-weight:700;letter-spacing:-.01em;color:var(--text)}
+#dbd-quote .sub{color:var(--muted);margin:0 0 26px;font-size:15px}
+#dbd-quote .eyebrow{color:var(--gold);font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;margin-bottom:8px}
+#dbd-quote .layout{display:grid;grid-template-columns:1fr 330px;gap:24px;align-items:start}
+#dbd-quote .step{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px;margin-bottom:18px}
+#dbd-quote .step-h{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+#dbd-quote .num{width:30px;height:30px;border-radius:50%;background:var(--gold);color:#ffffff;font-weight:700;display:grid;place-items:center;font-size:14px;flex:none}
+#dbd-quote .step-h h3{margin:0;font-size:18px;font-weight:600;color:var(--text)}
+#dbd-quote .hint{color:var(--muted);font-size:13px;margin:-8px 0 14px}
+#dbd-quote .services{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+#dbd-quote .svc{position:relative;cursor:pointer}
+#dbd-quote .svc input{position:absolute;opacity:0;pointer-events:none}
+#dbd-quote .svc span{display:flex;flex-direction:column;gap:4px;height:100%;padding:14px;border:1px solid var(--line);border-radius:12px;background:var(--card2);transition:.2s}
+#dbd-quote .svc b{font-size:15px}
+#dbd-quote .svc small{color:var(--muted);font-size:12.5px}
+#dbd-quote .svc input:checked + span{border-color:var(--gold);box-shadow:0 0 0 1px var(--gold) inset;background:#0a1a2e}
+#dbd-quote .svc input:focus-visible + span{outline:2px solid var(--gold2);outline-offset:2px}
+#dbd-quote .panel{display:none;margin-top:18px;padding-top:18px;border-top:1px dashed var(--line)}
+#dbd-quote .panel.show{display:block}
+#dbd-quote .panel h4{margin:0 0 12px;font-size:15px;color:var(--gold2);font-weight:600}
+#dbd-quote .opts{display:grid;gap:10px}
+#dbd-quote .opt{display:flex;gap:12px;align-items:flex-start;padding:13px 14px;border:1px solid var(--line);border-radius:10px;background:var(--card2);cursor:pointer;transition:.2s}
+#dbd-quote .opt:hover{border-color:#3a3d44}
+#dbd-quote .opt input{accent-color:var(--gold);margin-top:3px;flex:none;width:17px;height:17px}
+#dbd-quote .opt .t{flex:1}
+#dbd-quote .opt .t b{display:block;font-size:14.5px}
+#dbd-quote .opt .t small{color:var(--muted);font-size:12.5px;display:block}
+#dbd-quote .opt .p{font-weight:700;color:var(--gold2);white-space:nowrap;font-size:14.5px}
+#dbd-quote .opt.sel{border-color:var(--gold)}
+#dbd-quote .tag{display:inline-block;font-size:10.5px;background:var(--gold);color:#ffffff;border-radius:20px;padding:1px 8px;margin-left:6px;font-weight:700;vertical-align:middle;text-transform:uppercase;letter-spacing:.05em}
+#dbd-quote .note{font-size:12.5px;color:var(--muted);margin-top:10px}
+#dbd-quote .grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+#dbd-quote label.f{display:block;font-size:13px;color:var(--muted);margin-bottom:6px}
+#dbd-quote label.f em{color:var(--gold);font-style:normal}
+#dbd-quote input[type=text],#dbd-quote input[type=email],#dbd-quote input[type=tel],#dbd-quote input[type=date],#dbd-quote select,#dbd-quote textarea{
+  width:100%;padding:12px 13px;border:1px solid var(--line);border-radius:10px;background:var(--card2);color:var(--text);font:inherit;font-size:15px;transition:.2s}
+#dbd-quote textarea{min-height:96px;resize:vertical}
+#dbd-quote input:focus,#dbd-quote select,#dbd-quote textarea:focus{outline:none}
+#dbd-quote input:focus,#dbd-quote textarea:focus,#dbd-quote select:focus{border-color:var(--gold)}
+#dbd-quote .invalid{border-color:var(--err)!important}
+#dbd-quote .summary{position:sticky;top:20px;background:linear-gradient(160deg,#1b1c20,#141518);border:1px solid var(--line);border-radius:14px;padding:22px}
+#dbd-quote .summary h3{margin:0 0 14px;font-size:17px;color:var(--text)}
+#dbd-quote .lines{list-style:none;margin:0 0 14px;padding:0;font-size:14px}
+#dbd-quote .lines li{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-bottom:1px solid var(--line)}
+#dbd-quote .lines li span:last-child{white-space:nowrap;color:var(--gold2)}
+#dbd-quote .lines .empty{color:var(--muted);justify-content:flex-start}
+#dbd-quote .total{display:flex;justify-content:space-between;align-items:baseline;margin:6px 0 4px}
+#dbd-quote .total span{color:var(--muted);font-size:14px}
+#dbd-quote .total strong{font-size:30px;color:var(--gold2)}
+#dbd-quote .fine{font-size:12px;color:var(--muted);margin:6px 0 0}
+#dbd-quote .btn{width:100%;margin-top:16px;padding:15px;border:0;border-radius:10px;background:var(--gold);color:#ffffff;font-weight:700;font-size:16px;cursor:pointer;transition:.2s}
+#dbd-quote .btn:hover{filter:brightness(1.12);transform:translateY(-1px)}
+#dbd-quote .btn:disabled{opacity:.6;cursor:wait;transform:none}
+#dbd-quote .msg{display:none;margin-top:14px;padding:12px 14px;border-radius:10px;font-size:14px}
+#dbd-quote .msg.ok{display:block;background:rgba(79,191,139,.12);border:1px solid var(--ok);color:#bfeeda}
+#dbd-quote .msg.err{display:block;background:rgba(224,103,95,.12);border:1px solid var(--err);color:#f5c6c2}
+#dbd-quote .trust{list-style:none;padding:0;margin:16px 0 0;font-size:13px;color:var(--muted)}
+#dbd-quote .trust li{padding:3px 0}
+#dbd-quote .trust li::before{content:"✓ ";color:var(--gold)}
+#dbd-quote .hp{position:absolute;left:-9999px}
+@media (max-width:900px){
+  #dbd-quote .layout{grid-template-columns:1fr}
+  #dbd-quote .summary{position:static}
+  #dbd-quote .services{grid-template-columns:1fr 1fr}
+}
+@media (max-width:520px){
+  #dbd-quote{padding:22px 14px;border-radius:12px}
+  #dbd-quote .step{padding:16px}
+  #dbd-quote .grid2{grid-template-columns:1fr}
+  #dbd-quote .opt{flex-wrap:wrap}
+  #dbd-quote .opt .p{margin-left:29px}
+}
+</style>
+
+<div class="eyebrow">Installations</div>
+<h2>Get your installation quote</h2>
+<p class="sub">Choose what you'd like fitted. Your estimate updates as you go, and we confirm the final price once we've checked your vehicle.</p>
+
+<form id="dbdForm" novalidate>
+<div class="layout">
+<div>
+
+  <!-- STEP 1 -->
+  <div class="step">
+    <div class="step-h"><div class="num">1</div><h3>What would you like fitted?</h3></div>
+    <p class="hint">Pick one or more. Combined jobs pay one mobile fee.</p>
+    <div class="services">
+      <label class="svc"><input type="checkbox" name="svc" value="dashcam"><span><b>Dash camera</b><small>iROAD, from £299</small></span></label>
+      <label class="svc"><input type="checkbox" name="svc" value="sensors"><span><b>Parking sensors</b><small>Laserline, from £249</small></span></label>
+      <label class="svc"><input type="checkbox" name="svc" value="camera"><span><b>Reversing camera</b><small>From £299</small></span></label>
+      <label class="svc"><input type="checkbox" name="svc" value="headunit"><span><b>Head unit</b><small>Kenwood, from £499</small></span></label>
+    </div>
+
+    <!-- Dash cam -->
+    <div class="panel" data-panel="dashcam">
+      <h4>Dash camera package</h4>
+      <div class="opts">
+        <label class="opt"><input type="radio" name="dashcam" value="Essential|299"><div class="t"><b>Essential</b><small>iROAD FX PRO / FX2 PRO 1CH · 1080p front</small></div><div class="p">£299</div></label>
+        <label class="opt"><input type="radio" name="dashcam" value="Front & Rear|399"><div class="t"><b>Front &amp; Rear <span class="tag">Popular</span></b><small>iROAD FX2 PRO 2CH · 1080p front + 1080p rear</small></div><div class="p">£399</div></label>
+        <label class="opt"><input type="radio" name="dashcam" value="Premium 4K|499"><div class="t"><b>Premium 4K</b><small>iROAD X10 PRO 2CH · 4K front + 1080p rear</small></div><div class="p">£499</div></label>
+      </div>
+      <p class="note">Includes camera kit, concealed hardwiring, 64GB card, setup and demonstration. Parking mode set up where suitable, with battery protection. 2-year camera warranty (iROAD UK).</p>
+    </div>
+
+    <!-- Parking sensors -->
+    <div class="panel" data-panel="sensors">
+      <h4>Parking sensor package</h4>
+      <div class="opts">
+        <label class="opt"><input type="radio" name="sensors" value="Budget rear|249"><div class="t"><b>Budget rear</b><small>FPS412 · audible warning</small></div><div class="p">£249</div></label>
+        <label class="opt"><input type="radio" name="sensors" value="Flush rear|299"><div class="t"><b>Flush rear</b><small>EPS4016 · discreet flush sensors</small></div><div class="p">£299</div></label>
+        <label class="opt"><input type="radio" name="sensors" value="Budget front|379"><div class="t"><b>Budget front</b><small>FPS412F with manual switch</small></div><div class="p">£379</div></label>
+        <label class="opt"><input type="radio" name="sensors" value="Flush front (wired)|449"><div class="t"><b>Flush front, wired</b><small>EPS4016F with manual switch</small></div><div class="p">£449</div></label>
+        <label class="opt"><input type="radio" name="sensors" value="Flush front (GPS wireless)|549"><div class="t"><b>Flush front, GPS wireless</b><small>EPS4019-GPS · switches on automatically</small></div><div class="p">£549</div></label>
+        <label class="opt"><input type="radio" name="sensors" value="Budget front and rear|579"><div class="t"><b>Budget front and rear</b><small>FPS412 + FPS412F with switch</small></div><div class="p">£579</div></label>
+        <label class="opt"><input type="radio" name="sensors" value="Flush front and rear|799"><div class="t"><b>Flush front and rear</b><small>EPS4016 rear + EPS4019-GPS front</small></div><div class="p">£799</div></label>
+      </div>
+      <h4 style="margin-top:18px">Optional extras</h4>
+      <div class="opts">
+        <label class="opt"><input type="checkbox" name="sensorExtra" value="LED distance display|89"><div class="t"><b>LED distance display</b><small>One display, matched to your kit</small></div><div class="p">+£89</div></label>
+        <label class="opt"><input type="checkbox" name="sensorExtra" value="Colour match (4 sensors)|79" data-group="colour"><div class="t"><b>Colour match, 4 sensors</b><small>Painted to your car's colour</small></div><div class="p">+£79</div></label>
+        <label class="opt"><input type="checkbox" name="sensorExtra" value="Colour match (8 sensors)|139" data-group="colour"><div class="t"><b>Colour match, 8 sensors</b><small>Front and rear sets</small></div><div class="p">+£139</div></label>
+        <label class="opt"><input type="checkbox" name="sensorExtra" value="CAN speed activation|119"><div class="t"><b>CAN speed activation</b><small>Compatible vehicle and kit only</small></div><div class="p">+£119</div></label>
+        <label class="opt"><input type="checkbox" name="sensorExtra" value="Factory-screen integration|quote"><div class="t"><b>Factory-screen integration</b><small>Vehicle-specific compatibility and coding</small></div><div class="p">Quote</div></label>
+      </div>
+      <p class="note">Four sensors per bumper, concealed wiring, audible alerts, setup, testing and handover. Black sensors as standard.</p>
+    </div>
+
+    <!-- Reversing camera -->
+    <div class="panel" data-panel="camera">
+      <h4>Reversing camera package</h4>
+      <div class="opts">
+        <label class="opt"><input type="radio" name="camera" value="Customer-supplied camera (fit only)|299"><div class="t"><b>Fit your own camera</b><small>Installation only, after we check the equipment</small></div><div class="p">£299</div></label>
+        <label class="opt"><input type="radio" name="camera" value="Camera-ready screen|349"><div class="t"><b>Camera-ready screen</b><small>Discreet camera to your existing aftermarket screen's camera input</small></div><div class="p">£349</div></label>
+        <label class="opt"><input type="radio" name="camera" value="Factory screen integration|499"><div class="t"><b>Factory screen integration</b><small>Camera plus input adaptor or simple interface</small></div><div class="p">£499</div></label>
+        <label class="opt"><input type="radio" name="camera" value="Camera + dedicated screen|499"><div class="t"><b>Camera + dedicated screen</b><small>Mirror monitor or separate screen, standard mount included</small></div><div class="p">£499</div></label>
+        <label class="opt"><input type="radio" name="camera" value="Full interface integration|699"><div class="t"><b>Full interface integration</b><small>Vehicle-specific video interface for your original screen</small></div><div class="p">£699</div></label>
+      </div>
+      <p class="note">Includes concealed cabling, secure mounting, weather sealing, reverse activation and guideline setup where supported. Complex systems are quoted individually.</p>
+    </div>
+
+    <!-- Head unit -->
+    <div class="panel" data-panel="headunit">
+      <h4>Head unit package</h4>
+      <div class="opts">
+        <label class="opt"><input type="radio" name="headunit" value="Essential (Kenwood DMX5023DABS)|499"><div class="t"><b>Essential</b><small>Kenwood DMX5023DABS · 6.8" screen, wired CarPlay / Android Auto</small></div><div class="p">£499</div></label>
+        <label class="opt"><input type="radio" name="headunit" value="Wireless (Kenwood DMX6523DABS)|649"><div class="t"><b>Wireless <span class="tag">Popular</span></b><small>Kenwood DMX6523DABS · 6.8" screen, wireless CarPlay / Android Auto</small></div><div class="p">£649</div></label>
+        <label class="opt"><input type="radio" name="headunit" value="Premium (Kenwood DMX-F920DS)|899"><div class="t"><b>Premium</b><small>Kenwood DMX-F920DS · 9" floating HD screen, wireless</small></div><div class="p">£899</div></label>
+      </div>
+      <p class="note">All include DAB+ and Bluetooth, fascia and wiring, USB access, microphone, phone pairing and handover. Steering controls and factory features are checked per vehicle.</p>
+    </div>
+  </div>
+
+  <!-- STEP 2 -->
+  <div class="step">
+    <div class="step-h"><div class="num">2</div><h3>Where should we fit it?</h3></div>
+    <div class="opts">
+      <label class="opt"><input type="radio" name="loc" value="Studio|0" checked><div class="t"><b>At our studio</b><small>North Harbour</small></div><div class="p">No fee</div></label>
+      <label class="opt"><input type="radio" name="loc" value="Mobile – local|50"><div class="t"><b>Mobile, local</b><small>Up to 10 road miles from North Harbour</small></div><div class="p">+£50</div></label>
+      <label class="opt"><input type="radio" name="loc" value="Mobile – outer|80"><div class="t"><b>Mobile, outer</b><small>10 to 20 road miles from North Harbour</small></div><div class="p">+£80</div></label>
+      <label class="opt"><input type="radio" name="loc" value="Mobile – over 20 miles|quote"><div class="t"><b>Further than 20 miles</b><small>We'll quote the travel separately</small></div><div class="p">Quote</div></label>
+    </div>
+    <p class="note">One mobile fee per visit. Mobile fitting needs a suitable workspace and dry weather.</p>
+  </div>
+
+  <!-- STEP 3 -->
+  <div class="step">
+    <div class="step-h"><div class="num">3</div><h3>Your vehicle and details</h3></div>
+    <div class="grid2">
+      <div><label class="f" for="dbd-name">Full name <em>*</em></label><input type="text" id="dbd-name" name="name" autocomplete="name" required></div>
+      <div><label class="f" for="dbd-phone">Phone <em>*</em></label><input type="tel" id="dbd-phone" name="phone" autocomplete="tel" required></div>
+      <div><label class="f" for="dbd-email">Email <em>*</em></label><input type="email" id="dbd-email" name="email" autocomplete="email" required></div>
+      <div><label class="f" for="dbd-postcode">Postcode <em>*</em></label><input type="text" id="dbd-postcode" name="postcode" autocomplete="postal-code" required></div>
+      <div><label class="f" for="dbd-reg">Vehicle registration <em>*</em></label><input type="text" id="dbd-reg" name="registration" style="text-transform:uppercase" required></div>
+      <div><label class="f" for="dbd-vehicle">Make, model and year</label><input type="text" id="dbd-vehicle" name="vehicle" placeholder="e.g. VW Golf 2019"></div>
+      <div><label class="f" for="dbd-date">Preferred date</label><input type="date" id="dbd-date" name="preferred_date"></div>
+      <div><label class="f" for="dbd-contact">Best way to reach you</label>
+        <select id="dbd-contact" name="contact_method"><option>Phone call</option><option>WhatsApp</option><option>Email</option></select></div>
+    </div>
+    <div style="margin-top:14px"><label class="f" for="dbd-notes">Anything we should know?</label>
+      <textarea id="dbd-notes" name="notes" placeholder="Paint colour, current stereo or screen, factory features you want to keep…"></textarea></div>
+    <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off">
+  </div>
+
+</div>
+
+<!-- SUMMARY -->
+<aside class="summary" aria-live="polite">
+  <h3>Your estimate</h3>
+  <ul class="lines" id="dbdLines"><li class="empty">Choose a service to begin</li></ul>
+  <div class="total"><span>Estimated from</span><strong id="dbdTotal">£0</strong></div>
+  <p class="fine" id="dbdQuoteNote" style="display:none">+ items marked "Quote" priced after vehicle check</p>
+  <p class="fine">No VAT charged. Final price confirmed after we check your vehicle, before any work starts.</p>
+  <button type="submit" class="btn" id="dbdBtn">Request my quote</button>
+  <div class="msg" id="dbdMsg" role="status"></div>
+  <ul class="trust">
+    <li>Concealed, tidy wiring</li>
+    <li>Setup and handover included</li>
+    <li>Studio or mobile fitting</li>
+  </ul>
+</aside>
+</div>
+</form>
+
+<script>
+(function(){
+  /* ====== SETTINGS ====== */
+  var WEB3FORMS_KEY = "YOUR_ACCESS_KEY_HERE";   // from web3forms.com
+  var SUBJECT = "New installation quote request – DrivenByDetail";
+  /* ====================== */
+
+  var root = document.getElementById('dbd-quote');
+  var form = root.querySelector('#dbdForm');
+  var gbp = function(n){ return '£' + n.toLocaleString('en-GB'); };
+  var parse = function(v){ var p = v.split('|'); return {name:p[0], price:p[1]}; };
+
+  // show/hide service panels
+  root.querySelectorAll('input[name="svc"]').forEach(function(cb){
+    cb.addEventListener('change', function(){
+      var panel = root.querySelector('[data-panel="'+cb.value+'"]');
+      panel.classList.toggle('show', cb.checked);
+      if(!cb.checked){ panel.querySelectorAll('input').forEach(function(i){ i.checked = false; }); }
+      update();
+    });
+  });
+
+  // only one colour-match option at a time
+  root.querySelectorAll('[data-group="colour"]').forEach(function(cb){
+    cb.addEventListener('change', function(){
+      if(cb.checked) root.querySelectorAll('[data-group="colour"]').forEach(function(o){ if(o!==cb) o.checked=false; });
+    });
+  });
+
+  form.addEventListener('change', update);
+
+  function collect(){
+    var items = [], total = 0, hasQuote = false;
+    var labels = {dashcam:'Dash camera', sensors:'Parking sensors', camera:'Reversing camera', headunit:'Head unit'};
+    ['dashcam','sensors','camera','headunit'].forEach(function(k){
+      var on = root.querySelector('input[name="svc"][value="'+k+'"]').checked;
+      if(!on) return;
+      var r = root.querySelector('input[name="'+k+'"]:checked');
+      if(r){ var o = parse(r.value); items.push({label:labels[k]+': '+o.name, price:+o.price}); total += +o.price; }
+      else items.push({label:labels[k]+': choose a package', price:null});
+      if(k==='sensors'){
+        root.querySelectorAll('input[name="sensorExtra"]:checked').forEach(function(x){
+          var e = parse(x.value);
+          if(e.price==='quote'){ items.push({label:'Extra: '+e.name, price:'quote'}); hasQuote = true; }
+          else { items.push({label:'Extra: '+e.name, price:+e.price}); total += +e.price; }
+        });
+      }
+    });
+    var loc = parse(root.querySelector('input[name="loc"]:checked').value);
+    if(items.length){
+      if(loc.price==='quote'){ items.push({label:'Fitting: '+loc.name, price:'quote'}); hasQuote = true; }
+      else { items.push({label:'Fitting: '+loc.name, price:+loc.price}); total += +loc.price; }
+    }
+    return {items:items, total:total, hasQuote:hasQuote, location:loc.name};
+  }
+
+  function update(){
+    root.querySelectorAll('.opt').forEach(function(o){ o.classList.toggle('sel', o.querySelector('input').checked); });
+    var d = collect(), ul = root.querySelector('#dbdLines');
+    ul.innerHTML = '';
+    if(!d.items.length){ ul.innerHTML = '<li class="empty">Choose a service to begin</li>'; }
+    d.items.forEach(function(it){
+      var li = document.createElement('li');
+      var a = document.createElement('span'); a.textContent = it.label;
+      var b = document.createElement('span');
+      b.textContent = it.price===null ? '–' : it.price==='quote' ? 'Quote' : it.price===0 ? 'Free' : gbp(it.price);
+      li.appendChild(a); li.appendChild(b); ul.appendChild(li);
+    });
+    root.querySelector('#dbdTotal').textContent = gbp(d.total);
+    root.querySelector('#dbdQuoteNote').style.display = d.hasQuote ? 'block' : 'none';
+  }
+
+  function showMsg(type, text){ var m = root.querySelector('#dbdMsg'); m.className = 'msg ' + type; m.textContent = text; }
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var d = collect();
+    if(!d.items.length){ showMsg('err','Please choose at least one service.'); return; }
+    if(d.items.some(function(i){ return i.price===null; })){ showMsg('err','Please choose a package for each selected service.'); return; }
+
+    var ok = true;
+    form.querySelectorAll('[required]').forEach(function(f){
+      var bad = !f.value.trim() || (f.type==='email' && !/^\S+@\S+\.\S+$/.test(f.value));
+      f.classList.toggle('invalid', bad); if(bad) ok = false;
+    });
+    if(!ok){ showMsg('err','Please fill in the highlighted fields.'); return; }
+    if(form.botcheck.checked) return;
+
+    var summary = d.items.map(function(i){ return '• ' + i.label + ' — ' + (i.price==='quote' ? 'Quote' : gbp(i.price)); }).join('\n');
+    var payload = {
+      access_key: WEB3FORMS_KEY,
+      subject: SUBJECT,
+      from_name: 'DrivenByDetail Website',
+      replyto: form.email.value,
+      'Name': form.name.value,
+      'Phone': form.phone.value,
+      'Email': form.email.value,
+      'Postcode': form.postcode.value.toUpperCase(),
+      'Registration': form.registration.value.toUpperCase(),
+      'Vehicle': form.vehicle.value || '-',
+      'Preferred date': form.preferred_date.value || '-',
+      'Contact by': form.contact_method.value,
+      'Fitting location': d.location,
+      'Selected work': '\n' + summary,
+      'Estimated total': 'From ' + gbp(d.total) + (d.hasQuote ? ' + quoted items' : ''),
+      'Notes': form.notes.value || '-'
+    };
+
+    var btn = root.querySelector('#dbdBtn');
+    btn.disabled = true; btn.textContent = 'Sending…';
+    fetch('https://api.web3forms.com/submit', {
+      method:'POST', headers:{'Content-Type':'application/json','Accept':'application/json'},
+      body: JSON.stringify(payload)
+    }).then(function(r){ return r.json(); }).then(function(res){
+      if(res.success){
+        showMsg('ok','Thank you! Your request is in. We\'ll contact you shortly to confirm your vehicle and final price.');
+        form.reset(); root.querySelectorAll('.panel').forEach(function(p){ p.classList.remove('show'); }); update();
+        if(window.gtag) gtag('event','generate_lead',{value:d.total,currency:'GBP'});
+      } else { throw new Error(); }
+    }).catch(function(){
+      showMsg('err','Sorry, something went wrong. Please call us or try again.');
+    }).finally(function(){ btn.disabled = false; btn.textContent = 'Request my quote'; });
+  });
+
+  update();
+})();
+</script>
+</div>
+
+</body>
+</html>
