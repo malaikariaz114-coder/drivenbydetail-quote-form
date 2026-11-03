@@ -4,15 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Installation Quote | DrivenByDetail Eastbourne</title>
-<meta name="description" content="Get an instant estimate for dash camera, parking sensor, reversing camera and head unit installation in Eastbourne. Studio or mobile fitting.">
+<meta name="description" content="Get an instant estimate for dash cam, parking sensor, camera, head unit, audio and lighting installation in Eastbourne. Studio or mobile fitting.">
 <style>html,body{margin:0;background:#000}body{padding:24px 16px}</style>
 </head>
 <body>
-<!-- ===========================================================
-     DrivenByDetail – Installation Quote Form
+<!-- DrivenByDetail – Installation Quote Form (prices synced to Electrical Launch Pricebook, 28 Oct 2026).
      Paste this whole block into an Elementor "HTML" widget.
-     Step 1: put your Web3Forms access key below (WEB3FORMS_KEY).
-     =========================================================== -->
+     Put your Web3Forms access key in WEB3FORMS_KEY inside the script. -->
 <div id="dbd-quote">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap">
 <style>
@@ -28,7 +26,7 @@
 #dbd-quote .num{width:30px;height:30px;border-radius:50%;background:var(--gold);color:#ffffff;font-weight:700;display:grid;place-items:center;font-size:14px;flex:none}
 #dbd-quote .step-h h3{margin:0;font-size:18px;font-weight:600;color:var(--text)}
 #dbd-quote .hint{color:var(--muted);font-size:13px;margin:-8px 0 14px}
-#dbd-quote .services{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+#dbd-quote .services{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
 #dbd-quote .svc{position:relative;cursor:pointer}
 #dbd-quote .svc input{position:absolute;opacity:0;pointer-events:none}
 #dbd-quote .svc span{display:flex;flex-direction:column;gap:4px;height:100%;padding:14px;border:1px solid var(--line);border-radius:12px;background:var(--card2);transition:.2s}
@@ -101,77 +99,185 @@
 <div class="layout">
 <div>
 
-  <!-- STEP 1 -->
   <div class="step">
     <div class="step-h"><div class="num">1</div><h3>What would you like fitted?</h3></div>
     <p class="hint">Pick one or more. Combined jobs pay one mobile fee.</p>
     <div class="services">
-      <label class="svc"><input type="checkbox" name="svc" value="dashcam"><span><b>Dash camera</b><small>iROAD, from £299</small></span></label>
-      <label class="svc"><input type="checkbox" name="svc" value="sensors"><span><b>Parking sensors</b><small>Laserline, from £249</small></span></label>
+      <label class="svc"><input type="checkbox" name="svc" value="dashcam"><span><b>Dash camera</b><small>From £199</small></span></label>
+      <label class="svc"><input type="checkbox" name="svc" value="sensors"><span><b>Parking sensors</b><small>From £229</small></span></label>
       <label class="svc"><input type="checkbox" name="svc" value="camera"><span><b>Reversing camera</b><small>From £299</small></span></label>
-      <label class="svc"><input type="checkbox" name="svc" value="headunit"><span><b>Head unit</b><small>Kenwood, from £499</small></span></label>
+      <label class="svc"><input type="checkbox" name="svc" value="headunit"><span><b>Head unit</b><small>From £499</small></span></label>
+      <label class="svc"><input type="checkbox" name="svc" value="vancam"><span><b>Van cameras</b><small>From £479</small></span></label>
+      <label class="svc"><input type="checkbox" name="svc" value="audio"><span><b>Audio</b><small>From £249</small></span></label>
+      <label class="svc"><input type="checkbox" name="svc" value="lighting"><span><b>Lighting</b><small>From £99</small></span></label>
+      <label class="svc"><input type="checkbox" name="svc" value="alerts"><span><b>Audible warnings</b><small>From £149</small></span></label>
+      <label class="svc"><input type="checkbox" name="svc" value="labour"><span><b>Labour &amp; diagnosis</b><small>From £60</small></span></label>
     </div>
 
-    <!-- Dash cam -->
     <div class="panel" data-panel="dashcam">
       <h4>Dash camera package</h4>
       <div class="opts">
-        <label class="opt"><input type="radio" name="dashcam" value="Essential|299"><div class="t"><b>Essential</b><small>iROAD FX PRO / FX2 PRO 1CH · 1080p front</small></div><div class="p">£299</div></label>
-        <label class="opt"><input type="radio" name="dashcam" value="Front & Rear|399"><div class="t"><b>Front &amp; Rear <span class="tag">Popular</span></b><small>iROAD FX2 PRO 2CH · 1080p front + 1080p rear</small></div><div class="p">£399</div></label>
-        <label class="opt"><input type="radio" name="dashcam" value="Premium 4K|499"><div class="t"><b>Premium 4K</b><small>iROAD X10 PRO 2CH · 4K front + 1080p rear</small></div><div class="p">£499</div></label>
+        <label class="opt"><input type="radio" name="dashcam" value="Budget front|199"><div class="t"><b>Budget front</b><small>70mai M310 · straightforward front camera</small></div><div class="p">£199</div></label>
+        <label class="opt"><input type="radio" name="dashcam" value="Essential|289"><div class="t"><b>Essential</b><small>iROAD FX PRO / FX2 PRO 1CH · 1080p front</small></div><div class="p">£289</div></label>
+        <label class="opt"><input type="radio" name="dashcam" value="Front &amp; Rear|369"><div class="t"><b>Front &amp; Rear <span class="tag">Popular</span></b><small>iROAD FX2 PRO 2CH · 1080p front + 1080p rear</small></div><div class="p">£369</div></label>
+        <label class="opt"><input type="radio" name="dashcam" value="Premium 4K|449"><div class="t"><b>Premium 4K</b><small>iROAD X10 PRO 2CH · 4K front + 1080p rear</small></div><div class="p">£449</div></label>
+        <label class="opt"><input type="radio" name="dashcam" value="70mai M800 front &amp; rear|449"><div class="t"><b>70mai M800 front &amp; rear <span class="tag">Special order</span></b><small>70mai M800 · front + rear · 4G features and SIM charged separately</small></div><div class="p">£449</div></label>
+        <label class="opt"><input type="radio" name="dashcam" value="Thinkware U3000 front|549"><div class="t"><b>Thinkware U3000 front <span class="tag">Special order</span></b><small>Original U3000 front kit · Pro model quoted separately</small></div><div class="p">£549</div></label>
+        <label class="opt"><input type="radio" name="dashcam" value="Thinkware U3000 front &amp; rear|719"><div class="t"><b>Thinkware U3000 front &amp; rear <span class="tag">Special order</span></b><small>Original U3000 front + rear kit · parking-mode support confirmed</small></div><div class="p">£719</div></label>
       </div>
-      <p class="note">Includes camera kit, concealed hardwiring, 64GB card, setup and demonstration. Parking mode set up where suitable, with battery protection. 2-year camera warranty (iROAD UK).</p>
+      <h4 style="margin-top:18px">Fitting only (you supply the kit)</h4>
+      <div class="opts">
+        <label class="opt"><input type="radio" name="dashcam" value="Fit only – front|89"><div class="t"><b>Fit only, front</b><small>You supply a compatible camera and complete hardwire kit</small></div><div class="p">£89</div></label>
+        <label class="opt"><input type="radio" name="dashcam" value="Fit only – front &amp; rear|139"><div class="t"><b>Fit only, front &amp; rear</b><small>You supply a compatible front/rear camera and hardwire kit</small></div><div class="p">£139</div></label>
+      </div>
+      <p class="note">iROAD packages include camera kit, concealed hardwiring, 64GB card, setup and demonstration. Parking mode set up where suitable, with battery protection. 2-year camera warranty (iROAD UK). Special-order models depend on availability and the exact kit is confirmed before ordering. Fit-only jobs need a complete, compatible kit.</p>
     </div>
-
-    <!-- Parking sensors -->
     <div class="panel" data-panel="sensors">
       <h4>Parking sensor package</h4>
       <div class="opts">
-        <label class="opt"><input type="radio" name="sensors" value="Budget rear|249"><div class="t"><b>Budget rear</b><small>FPS412 · audible warning</small></div><div class="p">£249</div></label>
-        <label class="opt"><input type="radio" name="sensors" value="Flush rear|299"><div class="t"><b>Flush rear</b><small>EPS4016 · discreet flush sensors</small></div><div class="p">£299</div></label>
-        <label class="opt"><input type="radio" name="sensors" value="Budget front|379"><div class="t"><b>Budget front</b><small>FPS412F with manual switch</small></div><div class="p">£379</div></label>
-        <label class="opt"><input type="radio" name="sensors" value="Flush front (wired)|449"><div class="t"><b>Flush front, wired</b><small>EPS4016F with manual switch</small></div><div class="p">£449</div></label>
-        <label class="opt"><input type="radio" name="sensors" value="Flush front (GPS wireless)|549"><div class="t"><b>Flush front, GPS wireless</b><small>EPS4019-GPS · switches on automatically</small></div><div class="p">£549</div></label>
-        <label class="opt"><input type="radio" name="sensors" value="Budget front and rear|579"><div class="t"><b>Budget front and rear</b><small>FPS412 + FPS412F with switch</small></div><div class="p">£579</div></label>
-        <label class="opt"><input type="radio" name="sensors" value="Flush front and rear|799"><div class="t"><b>Flush front and rear</b><small>EPS4016 rear + EPS4019-GPS front</small></div><div class="p">£799</div></label>
+        <label class="opt"><input type="radio" name="sensors" value="Budget rear|229"><div class="t"><b>Budget rear</b><small>FPS412 · audible warning</small></div><div class="p">£229</div></label>
+        <label class="opt"><input type="radio" name="sensors" value="Flush rear|279"><div class="t"><b>Flush rear</b><small>EPS4016 · discreet flush sensors</small></div><div class="p">£279</div></label>
+        <label class="opt"><input type="radio" name="sensors" value="Budget front|329"><div class="t"><b>Budget front</b><small>FPS412F with manual switch</small></div><div class="p">£329</div></label>
+        <label class="opt"><input type="radio" name="sensors" value="Flush front (wired)|399"><div class="t"><b>Flush front, wired</b><small>EPS4016F with manual switch</small></div><div class="p">£399</div></label>
+        <label class="opt"><input type="radio" name="sensors" value="Flush front (GPS wireless)|479"><div class="t"><b>Flush front, GPS wireless</b><small>EPS4019-GPS · switches on automatically</small></div><div class="p">£479</div></label>
+        <label class="opt"><input type="radio" name="sensors" value="Budget front and rear|499"><div class="t"><b>Budget front and rear</b><small>FPS412 + FPS412F with switch</small></div><div class="p">£499</div></label>
+        <label class="opt"><input type="radio" name="sensors" value="Flush front and rear|699"><div class="t"><b>Flush front and rear</b><small>EPS4016 rear + EPS4019-GPS front</small></div><div class="p">£699</div></label>
+      </div>
+      <h4 style="margin-top:18px">Fitting only (you supply the kit)</h4>
+      <div class="opts">
+        <label class="opt"><input type="radio" name="sensors" value="Fit only – rear|159"><div class="t"><b>Fit only, rear</b><small>You supply a complete compatible four-sensor rear kit</small></div><div class="p">£159</div></label>
+        <label class="opt"><input type="radio" name="sensors" value="Fit only – front|239"><div class="t"><b>Fit only, front</b><small>You supply the complete front kit and switch</small></div><div class="p">£239</div></label>
+        <label class="opt"><input type="radio" name="sensors" value="Fit only – front and rear|329"><div class="t"><b>Fit only, front and rear</b><small>You supply a complete compatible eight-sensor kit</small></div><div class="p">£329</div></label>
       </div>
       <h4 style="margin-top:18px">Optional extras</h4>
       <div class="opts">
-        <label class="opt"><input type="checkbox" name="sensorExtra" value="LED distance display|89"><div class="t"><b>LED distance display</b><small>One display, matched to your kit</small></div><div class="p">+£89</div></label>
-        <label class="opt"><input type="checkbox" name="sensorExtra" value="Colour match (4 sensors)|79" data-group="colour"><div class="t"><b>Colour match, 4 sensors</b><small>Painted to your car's colour</small></div><div class="p">+£79</div></label>
-        <label class="opt"><input type="checkbox" name="sensorExtra" value="Colour match (8 sensors)|139" data-group="colour"><div class="t"><b>Colour match, 8 sensors</b><small>Front and rear sets</small></div><div class="p">+£139</div></label>
-        <label class="opt"><input type="checkbox" name="sensorExtra" value="CAN speed activation|119"><div class="t"><b>CAN speed activation</b><small>Compatible vehicle and kit only</small></div><div class="p">+£119</div></label>
-        <label class="opt"><input type="checkbox" name="sensorExtra" value="Factory-screen integration|quote"><div class="t"><b>Factory-screen integration</b><small>Vehicle-specific compatibility and coding</small></div><div class="p">Quote</div></label>
+        <label class="opt"><input type="checkbox" name="sensorsExtra" value="LED distance display|79"><div class="t"><b>LED distance display</b><small>One display, matched to your kit</small></div><div class="p">+£79</div></label>
+        <label class="opt"><input type="checkbox" name="sensorsExtra" value="Colour match (4 sensors)|39" data-group="colour"><div class="t"><b>Colour match, 4 sensors</b><small>Painted to your car&#x27;s colour</small></div><div class="p">+£39</div></label>
+        <label class="opt"><input type="checkbox" name="sensorsExtra" value="Colour match (8 sensors)|69" data-group="colour"><div class="t"><b>Colour match, 8 sensors</b><small>Front and rear sets</small></div><div class="p">+£69</div></label>
+        <label class="opt"><input type="checkbox" name="sensorsExtra" value="CAN speed activation|119"><div class="t"><b>CAN speed activation</b><small>Compatible vehicle and kit only</small></div><div class="p">+£119</div></label>
+        <label class="opt"><input type="checkbox" name="sensorsExtra" value="Factory-screen integration|quote"><div class="t"><b>Factory-screen integration</b><small>Vehicle-specific compatibility and coding</small></div><div class="p">Quote</div></label>
       </div>
-      <p class="note">Four sensors per bumper, concealed wiring, audible alerts, setup, testing and handover. Black sensors as standard.</p>
+      <p class="note">Four sensors per bumper, concealed wiring, audible alerts, setup, testing and handover. Black sensors as standard. Extras are added with a sensor installation only.</p>
     </div>
-
-    <!-- Reversing camera -->
     <div class="panel" data-panel="camera">
       <h4>Reversing camera package</h4>
       <div class="opts">
-        <label class="opt"><input type="radio" name="camera" value="Customer-supplied camera (fit only)|299"><div class="t"><b>Fit your own camera</b><small>Installation only, after we check the equipment</small></div><div class="p">£299</div></label>
-        <label class="opt"><input type="radio" name="camera" value="Camera-ready screen|349"><div class="t"><b>Camera-ready screen</b><small>Discreet camera to your existing aftermarket screen's camera input</small></div><div class="p">£349</div></label>
-        <label class="opt"><input type="radio" name="camera" value="Factory screen integration|499"><div class="t"><b>Factory screen integration</b><small>Camera plus input adaptor or simple interface</small></div><div class="p">£499</div></label>
-        <label class="opt"><input type="radio" name="camera" value="Camera + dedicated screen|499"><div class="t"><b>Camera + dedicated screen</b><small>Mirror monitor or separate screen, standard mount included</small></div><div class="p">£499</div></label>
-        <label class="opt"><input type="radio" name="camera" value="Full interface integration|699"><div class="t"><b>Full interface integration</b><small>Vehicle-specific video interface for your original screen</small></div><div class="p">£699</div></label>
+        <label class="opt"><input type="radio" name="camera" value="Customer-supplied camera (fit only)|229"><div class="t"><b>Fit your own camera</b><small>Installation only, after we check the equipment</small></div><div class="p">£229</div></label>
+        <label class="opt"><input type="radio" name="camera" value="Camera-ready screen|299"><div class="t"><b>Camera-ready screen</b><small>Discreet camera to your existing aftermarket screen&#x27;s camera input</small></div><div class="p">£299</div></label>
+        <label class="opt"><input type="radio" name="camera" value="Factory screen integration|429"><div class="t"><b>Factory screen integration</b><small>Camera plus input adaptor or simple interface</small></div><div class="p">£429</div></label>
+        <label class="opt"><input type="radio" name="camera" value="Camera + dedicated screen|429"><div class="t"><b>Camera + dedicated screen</b><small>Mirror monitor or separate screen, standard mount included</small></div><div class="p">£429</div></label>
+        <label class="opt"><input type="radio" name="camera" value="Full interface integration|649"><div class="t"><b>Full interface integration</b><small>Vehicle-specific video interface for your original screen</small></div><div class="p">£649</div></label>
       </div>
-      <p class="note">Includes concealed cabling, secure mounting, weather sealing, reverse activation and guideline setup where supported. Complex systems are quoted individually.</p>
+      <p class="note">Includes concealed cabling, secure mounting, weather sealing, reverse activation and guideline setup where supported. Any external coding is additional, and complex systems are quoted individually.</p>
     </div>
-
-    <!-- Head unit -->
     <div class="panel" data-panel="headunit">
       <h4>Head unit package</h4>
       <div class="opts">
-        <label class="opt"><input type="radio" name="headunit" value="Essential (Kenwood DMX5023DABS)|499"><div class="t"><b>Essential</b><small>Kenwood DMX5023DABS · 6.8" screen, wired CarPlay / Android Auto</small></div><div class="p">£499</div></label>
-        <label class="opt"><input type="radio" name="headunit" value="Wireless (Kenwood DMX6523DABS)|649"><div class="t"><b>Wireless <span class="tag">Popular</span></b><small>Kenwood DMX6523DABS · 6.8" screen, wireless CarPlay / Android Auto</small></div><div class="p">£649</div></label>
-        <label class="opt"><input type="radio" name="headunit" value="Premium (Kenwood DMX-F920DS)|899"><div class="t"><b>Premium</b><small>Kenwood DMX-F920DS · 9" floating HD screen, wireless</small></div><div class="p">£899</div></label>
+        <label class="opt"><input type="radio" name="headunit" value="Essential (Kenwood DMX5023DABS)|499"><div class="t"><b>Essential</b><small>Kenwood DMX5023DABS · 6.8&quot; screen, wired CarPlay / Android Auto</small></div><div class="p">£499</div></label>
+        <label class="opt"><input type="radio" name="headunit" value="Factory-screen CarPlay interface|549"><div class="t"><b>Factory-screen CarPlay</b><small>Keep your original screen · CarPlay / Android Auto interface, exact unit confirmed per vehicle</small></div><div class="p">£549</div></label>
+        <label class="opt"><input type="radio" name="headunit" value="Wireless (Kenwood DMX6523DABS)|619"><div class="t"><b>Wireless <span class="tag">Popular</span></b><small>Kenwood DMX6523DABS · 6.8&quot; screen, wireless CarPlay / Android Auto</small></div><div class="p">£619</div></label>
+        <label class="opt"><input type="radio" name="headunit" value="Premium (Kenwood DMX-F920DS)|849"><div class="t"><b>Premium</b><small>Kenwood DMX-F920DS · 9&quot; floating HD screen, wireless</small></div><div class="p">£849</div></label>
       </div>
-      <p class="note">All include DAB+ and Bluetooth, fascia and wiring, USB access, microphone, phone pairing and handover. Steering controls and factory features are checked per vehicle.</p>
+      <h4 style="margin-top:18px">Fitting only (you supply the kit)</h4>
+      <div class="opts">
+        <label class="opt"><input type="radio" name="headunit" value="Fit only – straightforward|169"><div class="t"><b>Fit only, straightforward</b><small>You supply a compatible head unit and complete fitting kit</small></div><div class="p">£169</div></label>
+        <label class="opt"><input type="radio" name="headunit" value="Fit only – factory interface|199"><div class="t"><b>Fit only, factory interface</b><small>You supply the compatible interface and harness</small></div><div class="p">£199</div></label>
+        <label class="opt"><input type="radio" name="headunit" value="Fit only – involved installation|249"><div class="t"><b>Fit only, involved installation</b><small>More involved fitting agreed in advance, complete parts supplied</small></div><div class="p">£249</div></label>
+      </div>
+      <h4 style="margin-top:18px">Optional extras</h4>
+      <div class="opts">
+        <label class="opt"><input type="checkbox" name="headunitExtra" value="Reversing camera with head unit|229"><div class="t"><b>Reversing camera with head unit</b><small>New camera wired into the new unit during the same booking</small></div><div class="p">+£229</div></label>
+        <label class="opt"><input type="checkbox" name="headunitExtra" value="Retain factory camera|89"><div class="t"><b>Retain factory camera</b><small>Adapter so your existing camera keeps working</small></div><div class="p">+£89</div></label>
+        <label class="opt"><input type="checkbox" name="headunitExtra" value="Retain steering-wheel controls|89"><div class="t"><b>Retain steering-wheel controls</b><small>Compatible control adapter and patch lead</small></div><div class="p">+£89</div></label>
+      </div>
+      <p class="note">Kenwood units include DAB+ and Bluetooth, fascia and wiring, USB access, microphone, phone pairing and handover. Extras are added with a head unit installation only. Factory features are checked per vehicle.</p>
+    </div>
+    <div class="panel" data-panel="vancam">
+      <h4>Van camera package</h4>
+      <div class="opts">
+        <label class="opt"><input type="radio" name="vancam" value="Van brake-light camera + 5-inch|479"><div class="t"><b>Brake-light camera + 5-inch monitor</b><small>High-level brake-light camera, protected wiring, sealing and brake-light check</small></div><div class="p">£479</div></label>
+        <label class="opt"><input type="radio" name="vancam" value="Van brake-light camera + 7-inch|529"><div class="t"><b>Brake-light camera + 7-inch monitor</b><small>Single brake-light camera and 7-inch monitor · door layout and lamp type checked</small></div><div class="p">£529</div></label>
+        <label class="opt"><input type="radio" name="vancam" value="Van dual-view camera + 7-inch|599"><div class="t"><b>Dual-view camera + 7-inch monitor</b><small>Dual-lens camera · rearward and reversing view switching where supported</small></div><div class="p">£599</div></label>
+      </div>
+      <p class="note">Includes protected wiring, sealing, brake-light check and handover. Door layout, lamp type, connectors and routing are confirmed before ordering.</p>
+    </div>
+    <div class="panel" data-panel="audio" data-multi>
+      <h4>Audio upgrades</h4>
+      <div class="opts">
+        <label class="opt"><input type="checkbox" name="audioExtra" value="Front speaker clarity|249"><div class="t"><b>Front speaker clarity</b><small>One front speaker pair and matching adapters · basic fit and setup</small></div><div class="p">£249</div></label>
+        <label class="opt"><input type="checkbox" name="audioExtra" value="Fit only, front speaker pair|119"><div class="t"><b>Fit only, front speaker pair</b><small>You supply suitable speakers and adapters · damping separate</small></div><div class="p">£119</div></label>
+        <label class="opt"><input type="checkbox" name="audioExtra" value="Front components + door damping|399"><div class="t"><b>Front components + door damping</b><small>Front component set, adapters and limited damping of the two front doors</small></div><div class="p">£399</div></label>
+        <label class="opt"><input type="checkbox" name="audioExtra" value="Active under-seat subwoofer|399"><div class="t"><b>Active under-seat subwoofer</b><small>Active under-seat sub, protected power wiring and signal connection</small></div><div class="p">£399</div></label>
+        <label class="opt"><input type="checkbox" name="audioExtra" value="Compact amp / DSP upgrade|699"><div class="t"><b>Compact amp / DSP upgrade</b><small>One compact amp or DSP amp and harness · complex OEM integration quoted separately</small></div><div class="p">£699</div></label>
+        <label class="opt"><input type="checkbox" name="audioExtra" value="Front stage + bass system|1199"><div class="t"><b>Front stage + bass system</b><small>Front components, amplification and subwoofer with agreed front-door treatment</small></div><div class="p">£1,199</div></label>
+      </div>
+      <p class="note">Tick everything you would like fitted. Exact products, damping area and tuning scope are agreed before work starts. Complex OEM integration and extensive tuning are quoted separately. We confirm the final combined price after checking your vehicle.</p>
+    </div>
+    <div class="panel" data-panel="lighting" data-multi>
+      <h4>Lighting</h4>
+      <h4 style="margin-top:18px">Cabin</h4>
+      <div class="opts">
+        <label class="opt"><input type="checkbox" name="lightingExtra" value="Cabin LED refresh|99"><div class="t"><b>Cabin LED refresh</b><small>Up to six accessible cabin/boot bulbs replaced and checked</small></div><div class="p">£99</div></label>
+        <label class="opt"><input type="checkbox" name="lightingExtra" value="Footwell lighting|269"><div class="t"><b>Footwell lighting</b><small>Four discreet footwell modules, concealed wiring and one controller</small></div><div class="p">£269</div></label>
+      </div>
+      <h4 style="margin-top:18px">Van loadspace</h4>
+      <div class="opts">
+        <label class="opt"><input type="checkbox" name="lightingExtra" value="Loadspace, 2 strips|239"><div class="t"><b>Loadspace, 2 strips</b><small>Two LED strips and one manual control</small></div><div class="p">£239</div></label>
+        <label class="opt"><input type="checkbox" name="lightingExtra" value="Loadspace, 4 strips / 2 zones|409"><div class="t"><b>Loadspace, 4 strips / 2 zones</b><small>Four strips with two separately switched zones</small></div><div class="p">£409</div></label>
+        <label class="opt"><input type="checkbox" name="lightingExtra" value="Loadspace, 6 strips / controls|599"><div class="t"><b>Loadspace, 6 strips / controls</b><small>Six strips, two zones, door or PIR control and low-voltage protection</small></div><div class="p">£599</div></label>
+      </div>
+      <h4 style="margin-top:18px">Work lights</h4>
+      <div class="opts">
+        <label class="opt"><input type="checkbox" name="lightingExtra" value="Work lights, 2 rear|269"><div class="t"><b>Work lights, 2 rear</b><small>Two rear-facing flood lamps on a separate switched circuit</small></div><div class="p">£269</div></label>
+        <label class="opt"><input type="checkbox" name="lightingExtra" value="Work lights, 4 rear / side|449"><div class="t"><b>Work lights, 4 rear / side</b><small>Two rear and one each side, with rear/side switching</small></div><div class="p">£449</div></label>
+        <label class="opt"><input type="checkbox" name="lightingExtra" value="Work lights, 6 / 3 zones|649"><div class="t"><b>Work lights, 6 / 3 zones</b><small>Two front, two rear and one each side, in three zones</small></div><div class="p">£649</div></label>
+      </div>
+      <h4 style="margin-top:18px">Amber warning lights</h4>
+      <div class="opts">
+        <label class="opt"><input type="checkbox" name="lightingExtra" value="Amber mini lightbar|249"><div class="t"><b>Amber mini lightbar</b><small>One compact amber mini lightbar, hardwired with cab control</small></div><div class="p">£249</div></label>
+        <label class="opt"><input type="checkbox" name="lightingExtra" value="Amber mini bar + 4 strobes|579"><div class="t"><b>Amber mini bar + 4 strobes</b><small>Mini lightbar plus four strobes: two front, two rear</small></div><div class="p">£579</div></label>
+        <label class="opt"><input type="checkbox" name="lightingExtra" value="Large amber bar + 6 strobes|1149"><div class="t"><b>Large amber bar + 6 strobes</b><small>900-1200mm bar plus six strobes and controls · mounting survey required</small></div><div class="p">£1,149</div></label>
+      </div>
+      <h4 style="margin-top:18px">Road and exterior</h4>
+      <div class="opts">
+        <label class="opt"><input type="checkbox" name="lightingExtra" value="Premium halogen bulb pair|99"><div class="t"><b>Premium halogen bulb pair</b><small>Pair of premium halogen bulbs with straightforward access</small></div><div class="p">£99</div></label>
+        <label class="opt"><input type="checkbox" name="lightingExtra" value="Front fog-light retrofit|399"><div class="t"><b>Front fog-light retrofit</b><small>Matched fog lamps in suitable existing positions · extra fabrication/coding quoted</small></div><div class="p">£399</div></label>
+        <label class="opt"><input type="checkbox" name="lightingExtra" value="Daytime running-light retrofit|269"><div class="t"><b>Daytime running-light retrofit</b><small>Pair of daytime running lamps with automatic control</small></div><div class="p">£269</div></label>
+        <label class="opt"><input type="checkbox" name="lightingExtra" value="Auxiliary driving lights|429"><div class="t"><b>Auxiliary driving lights</b><small>Driving bar or pair of lamps with main-beam control and override</small></div><div class="p">£429</div></label>
+        <label class="opt"><input type="checkbox" name="lightingExtra" value="Marker lights, 4 lamps|269"><div class="t"><b>Marker lights, 4 lamps</b><small>Four marker lamps with position-light control</small></div><div class="p">£269</div></label>
+        <label class="opt"><input type="checkbox" name="lightingExtra" value="Additional reversing lights|309"><div class="t"><b>Additional reversing lights</b><small>Two reversing lamps, compatible reverse activation and protected wiring</small></div><div class="p">£309</div></label>
+      </div>
+      <h4 style="margin-top:18px">Bundle</h4>
+      <div class="opts">
+        <label class="opt"><input type="checkbox" name="lightingExtra" value="Work van lighting bundle|439"><div class="t"><b>Work van lighting bundle</b><small>Two internal strips and two rear work lamps, with separate controls</small></div><div class="p">£439</div></label>
+      </div>
+      <p class="note">Tick everything you would like fitted. Exact lamps, locations and controls are confirmed per vehicle. OEM lamp conversions, extensive ambient/starlight work and custom fabrication are quoted individually. We confirm the final combined price after checking your vehicle.</p>
+    </div>
+    <div class="panel" data-panel="alerts" data-multi>
+      <h4>Audible warnings</h4>
+      <div class="opts">
+        <label class="opt"><input type="checkbox" name="alertsExtra" value="Essential reversing beeper|149"><div class="t"><b>Essential reversing beeper</b><small>One conventional reverse-triggered rear sounder</small></div><div class="p">£149</div></label>
+        <label class="opt"><input type="checkbox" name="alertsExtra" value="White-noise reverse alarm|179"><div class="t"><b>White-noise reverse alarm</b><small>One white-noise reversing sounder</small></div><div class="p">£179</div></label>
+        <label class="opt"><input type="checkbox" name="alertsExtra" value="Self-adjusting / spoken reverse|199"><div class="t"><b>Self-adjusting / spoken reverse</b><small>One self-adjusting tonal or spoken reverse sounder</small></div><div class="p">£199</div></label>
+        <label class="opt"><input type="checkbox" name="alertsExtra" value="Spoken left-turn warning|249"><div class="t"><b>Spoken left-turn warning</b><small>One nearside sounder with turn trigger and hazard suppression</small></div><div class="p">£249</div></label>
+        <label class="opt"><input type="checkbox" name="alertsExtra" value="Reverse + left-turn warning|349"><div class="t"><b>Reverse + left-turn warning</b><small>White-noise reversing alarm plus a separate spoken left-turn sounder</small></div><div class="p">£349</div></label>
+        <label class="opt"><input type="checkbox" name="alertsExtra" value="Multifunction sounder + LED|399"><div class="t"><b>Multifunction sounder + LED</b><small>One multifunction sounder wired for compatible reverse and turn triggers</small></div><div class="p">£399</div></label>
+        <label class="opt"><input type="checkbox" name="alertsExtra" value="Handbrake warning|249"><div class="t"><b>Handbrake warning</b><small>Cab warning using compatible driver-door and handbrake signals</small></div><div class="p">£249</div></label>
+        <label class="opt"><input type="checkbox" name="alertsExtra" value="Programmable sounder|349"><div class="t"><b>Programmable sounder</b><small>One programmable sounder, up to two existing trigger inputs, sound files and setup</small></div><div class="p">£349</div></label>
+      </div>
+      <p class="note">Tick everything you would like fitted. The exact sounder, muting behaviour and functions are confirmed before fitting. Extra signal interfaces are quoted separately. We confirm the final combined price after checking your vehicle.</p>
+    </div>
+    <div class="panel" data-panel="labour" data-multi>
+      <h4>Labour and diagnosis</h4>
+      <div class="opts">
+        <label class="opt"><input type="checkbox" name="labourExtra" value="Diagnosis, first hour|75"><div class="t"><b>Diagnosis, first hour</b><small>First hour of agreed electrical diagnosis · repairs and parts quoted after diagnosis</small></div><div class="p">£75</div></label>
+        <label class="opt"><input type="checkbox" name="labourExtra" value="Minimum small booking|60"><div class="t"><b>Minimum small booking</b><small>Simple short job, up to 30 minutes workshop work · studio only · parts additional</small></div><div class="p">£60</div></label>
+        <label class="opt"><input type="checkbox" name="labourExtra" value="Additional agreed labour, per hour|65"><div class="t"><b>Additional agreed labour, per hour</b><small>Extra work agreed before starting · parts and external coding additional</small></div><div class="p">£65</div></label>
+      </div>
+      <p class="note">Extra labour is agreed in advance. The minimum small booking is for simple studio jobs only. Parts are additional. We confirm the final combined price after checking your vehicle.</p>
     </div>
   </div>
 
-  <!-- STEP 2 -->
   <div class="step">
     <div class="step-h"><div class="num">2</div><h3>Where should we fit it?</h3></div>
     <div class="opts">
@@ -183,7 +289,6 @@
     <p class="note">One mobile fee per visit. Mobile fitting needs a suitable workspace and dry weather.</p>
   </div>
 
-  <!-- STEP 3 -->
   <div class="step">
     <div class="step-h"><div class="num">3</div><h3>Your vehicle and details</h3></div>
     <div class="grid2">
@@ -204,7 +309,6 @@
 
 </div>
 
-<!-- SUMMARY -->
 <aside class="summary" aria-live="polite">
   <h3>Your estimate</h3>
   <ul class="lines" id="dbdLines"><li class="empty">Choose a service to begin</li></ul>
@@ -234,7 +338,6 @@
   var gbp = function(n){ return '£' + n.toLocaleString('en-GB'); };
   var parse = function(v){ var p = v.split('|'); return {name:p[0], price:p[1]}; };
 
-  // show/hide service panels
   root.querySelectorAll('input[name="svc"]').forEach(function(cb){
     cb.addEventListener('change', function(){
       var panel = root.querySelector('[data-panel="'+cb.value+'"]');
@@ -244,7 +347,6 @@
     });
   });
 
-  // only one colour-match option at a time
   root.querySelectorAll('[data-group="colour"]').forEach(function(cb){
     cb.addEventListener('change', function(){
       if(cb.checked) root.querySelectorAll('[data-group="colour"]').forEach(function(o){ if(o!==cb) o.checked=false; });
@@ -255,20 +357,21 @@
 
   function collect(){
     var items = [], total = 0, hasQuote = false;
-    var labels = {dashcam:'Dash camera', sensors:'Parking sensors', camera:'Reversing camera', headunit:'Head unit'};
-    ['dashcam','sensors','camera','headunit'].forEach(function(k){
+    var labels = {dashcam:'Dash camera', sensors:'Parking sensors', camera:'Reversing camera', headunit:'Head unit', vancam:'Van camera', audio:'Audio', lighting:'Lighting', alerts:'Audible warnings', labour:'Labour'};
+    ['dashcam','sensors','camera','headunit','vancam','audio','lighting','alerts','labour'].forEach(function(k){
       var on = root.querySelector('input[name="svc"][value="'+k+'"]').checked;
       if(!on) return;
+      var multi = root.querySelector('[data-panel="'+k+'"]').hasAttribute('data-multi');
       var r = root.querySelector('input[name="'+k+'"]:checked');
       if(r){ var o = parse(r.value); items.push({label:labels[k]+': '+o.name, price:+o.price}); total += +o.price; }
-      else items.push({label:labels[k]+': choose a package', price:null});
-      if(k==='sensors'){
-        root.querySelectorAll('input[name="sensorExtra"]:checked').forEach(function(x){
-          var e = parse(x.value);
-          if(e.price==='quote'){ items.push({label:'Extra: '+e.name, price:'quote'}); hasQuote = true; }
-          else { items.push({label:'Extra: '+e.name, price:+e.price}); total += +e.price; }
-        });
-      }
+      else if(!multi) items.push({label:labels[k]+': choose a package', price:null});
+      var xs = root.querySelectorAll('input[name="'+k+'Extra"]:checked');
+      if(multi && !xs.length) items.push({label:labels[k]+': choose at least one item', price:null});
+      xs.forEach(function(x){
+        var e = parse(x.value);
+        if(e.price==='quote'){ items.push({label:(multi ? labels[k]+': ' : 'Extra: ')+e.name, price:'quote'}); hasQuote = true; }
+        else { items.push({label:(multi ? labels[k]+': ' : 'Extra: ')+e.name, price:+e.price}); total += +e.price; }
+      });
     });
     var loc = parse(root.querySelector('input[name="loc"]:checked').value);
     if(items.length){
@@ -300,7 +403,7 @@
     e.preventDefault();
     var d = collect();
     if(!d.items.length){ showMsg('err','Please choose at least one service.'); return; }
-    if(d.items.some(function(i){ return i.price===null; })){ showMsg('err','Please choose a package for each selected service.'); return; }
+    if(d.items.some(function(i){ return i.price===null; })){ showMsg('err','Please choose an option for each selected service.'); return; }
 
     var ok = true;
     form.querySelectorAll('[required]').forEach(function(f){
